@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Sydney Informatics Hub Course name"
+  title: "Sydney Informatics Hub Intro to Omeka S"
   navbar:
     background: primary
     left:
@@ -13,13 +13,21 @@ website:
         text: "Setup"
       - text: "Session 1"
         menu:
-        - text: "Python from ipynb example"
-          href: notebooks/01a-fundamentals.html
-        - text: "R from qmd example"
-          href: notebooks/01b_exampleRcontent.html
-        - text: "Markdown from md example"
-          href: notebooks/01c_exampleMDcontent.html
-  cookie-consent: 
+        - text: "Basic concepts"
+          href: notebooks/01_basic_concepts.html
+        - text: "Uploading resources"
+          href: notebooks/02_upload_resources.html
+        - text: "Linking resources"
+          href: notebooks/03_linking_resources.html
+        - text: "Creating a site"
+          href: notebooks/04_create_a_site.html
+        - text: "Create a map"
+          href: notebooks/05_create_a_map.html
+        - text: "Site navigation"
+          href: notebooks/06_site_navigation.html
+        - text: "Mapping by links"
+          href: notebooks/07_map_by_links.html
+  cookie-consent:
     type: express
     style: simple
     palette: light
