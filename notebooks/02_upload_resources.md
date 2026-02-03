@@ -1,7 +1,12 @@
 # Upload resources
 
-We're now going to take one spreadsheet and use it to create a set of
-resources in Omeka S and add them to the site we've just created.
+I'm going to start with one of the worksheets from the spreadsheet and upload it into Omeka S.
+
+This is a version of Omeka S running on my laptop, but it's the same
+distribution we're using for Curated Collections
+
+Each location will have a resource or item in Omeka S - you can think
+of these as entities or rows in a database.
 
 Omeka S comes with some pre-installed templates for resources - these
 are recommended because they use standard vocabularies for their field
@@ -28,16 +33,15 @@ carceral sites and quotations, in that order.
 To start the import process, click "CSV Import" near the bottom of the
 navigation panel.
 
-![CSV import](figures/03a_csv_import.png)
+![CSV import](figures/02a_csv_import.png)
 
 We need to go through a couple of pages for this to tell Omeka S how to
 map spreadsheet rows to resources.
 
 The first page lets us select the file, and set some basic parameters
-for the CSV - the default values for these are fine. Click "Next" when
-you've found the spreadsheet.
+for the CSV - the default values for these are fine. 
 
-![Import settings](figures/03b_select_file.png)
+![Import settings](figures/02b_select_file.png)
 
 The next page will have a table for each column in the spreadsheet you've
 just uploaded. We need to map these onto values for the resources.
@@ -45,16 +49,15 @@ just uploaded. We need to map these onto values for the resources.
 Before we start this, we'll select a resource template for Omeka S to
 use when creating the new items. Select the "Basic Settings" tab at the top, and select "Place" from the drop-down next to "Resource template"
 
-Notice that there's also a "Sites" field on this page, which should have
-your new site as its value.
-
-![Basic settings](figures/03c_basic_settings.png)
+![Basic settings](figures/02c_basic_settings.png)
 
 Once we've selected Place, click the "Map to Omeka S Data" to go back to the list of spreadsheet columns.
 
 Click the + icon next to "ID [GEO-xxx]" and a panel with the header
-"Add mapping". Click the "Properties" drop down and search for a property
-called "Identifier"
+"Add mapping". We get a panel which lets us select one of the fields from
+the resource templates. I'm choosing "identifier" from schema.org -
+there's also an "Identifier" from Dublin Core and it's important that
+we stay consistent.
 
 NOTE - you need to click the "Apply changes" button! I always forget this.
 
