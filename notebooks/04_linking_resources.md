@@ -2,14 +2,30 @@
 
 Now we're going to upload a second CSV file of Carceral Sites.
 
-This one can link to the existing Geolocations, but I also noticed
-that the sites have related links - some of these won't work on
-import because they are circular
+This one can link to the Geolocations we've already added, but this list
+also has internal links - relations to other Carceral Sites. Omeka S
+can support this kind of link, but not when importing - we will need to
+add these links manually after uploading.
 
-use isRelatedTo, not relatedTo
+We'll use the Place resource template for the Carceral Sites, as we did
+with the geolocations.
 
-There is an inverseProperties module which can create bidirectional
-links
+FIXME = here is where to show how to sanitise lat-longs in Excel,
+by adding two extra columns with =VALUE(LAT_COL) to pick up weird
+things like n-dashes.
+
+
+We copy the worksheet out as a CSV, and go through the same process
+as before, mapping the columns to fields on Place.
+
+When defining the column mappings for this spreadsheet, we tell Omeka S
+to add links to the geolocations already uploaded. We do this by
+clicking the wrench for the options panel, and selecting "Omeka Resource"
+as the data type - we also need to let Omeka S know what has the id
+on the resource we want to link to. We've been using schema.org identifier
+so we have to use that (not Dublin Core)
+
+![Resource links](figures/03_resource_link.png)
 
 Go through cutting and pasting the Sites, and get to the failed
 import with the mysterious error messages
@@ -17,8 +33,6 @@ import with the mysterious error messages
 Find and replace the weird en-dash hyphens in the spreadsheet and
 start again
 
-Note that Dublin Core : identifier and schema.org: identifier are
-different
 
 Circular references have not been resolved : screenshot
 
