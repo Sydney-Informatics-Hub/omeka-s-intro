@@ -18,17 +18,17 @@ website:
         - text: "Preparing a CSV"
           href: notebooks/02_prepare_csv.html
         - text: "Uploading items"
-          href: notebooks/03_uploading_items.html
+          href: notebooks/03_upload_items.html
         - text: "Linking items"
-          href: notebooks/03_linking_items.html
+          href: notebooks/04_linking_items.html
         - text: "Creating a site"
-          href: notebooks/04_create_a_site.html
+          href: notebooks/05_create_a_site.html
         - text: "Create a map"
-          href: notebooks/05_create_a_map.html
+          href: notebooks/06_create_a_map.html
         - text: "Site navigation"
-          href: notebooks/06_site_navigation.html
+          href: notebooks/07_site_navigation.html
         - text: "Mapping by links"
-          href: notebooks/07_map_by_links.html
+          href: notebooks/08_map_links.html
   cookie-consent:
     type: express
     style: simple
