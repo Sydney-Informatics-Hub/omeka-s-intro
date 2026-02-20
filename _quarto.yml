@@ -15,10 +15,12 @@ website:
         menu:
         - text: "Basic concepts"
           href: notebooks/01_basic_concepts.html
-        - text: "Uploading resources"
-          href: notebooks/02_upload_resources.html
-        - text: "Linking resources"
-          href: notebooks/03_linking_resources.html
+        - text: "Preparing a CSV"
+          href: notebooks/02_prepare_csv.html
+        - text: "Uploading items"
+          href: notebooks/03_uploading_items.html
+        - text: "Linking items"
+          href: notebooks/03_linking_items.html
         - text: "Creating a site"
           href: notebooks/04_create_a_site.html
         - text: "Create a map"
