@@ -15,20 +15,22 @@ website:
         menu:
         - text: "Basic concepts"
           href: notebooks/01_basic_concepts.html
-        - text: "Preparing a CSV"
-          href: notebooks/02_prepare_csv.html
-        - text: "Uploading items"
-          href: notebooks/03_upload_items.html
+        - text: "Logging in"
+          href: notebooks/02_logging_in.html
+        - text: "Items"
+          href: notebooks/03_items.html
+        - text: "Editing items"
+          href: notebooks/04_editing_items.html
         - text: "Linking items"
-          href: notebooks/04_linking_items.html
+          href: notebooks/05_linking_items.html
         - text: "Creating a site"
-          href: notebooks/05_create_a_site.html
+          href: notebooks/06_create_a_site.html
         - text: "Create a map"
-          href: notebooks/06_create_a_map.html
+          href: notebooks/07_create_a_map.html
         - text: "Site navigation"
-          href: notebooks/07_site_navigation.html
+          href: notebooks/08_site_navigation.html
         - text: "Mapping by links"
-          href: notebooks/08_map_links.html
+          href: notebooks/09_map_links.html
   cookie-consent:
     type: express
     style: simple
