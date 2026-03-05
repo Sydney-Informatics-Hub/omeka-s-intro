@@ -6,16 +6,29 @@ output:
     toc_float: false
 ---
 
+This is a short workshop which will introduce you to Omeka S, a web
+platform for building and publishing digital humanities collections.
 
-This is a training course aimed at researchers who want to start building
-and publishing collections with Omeka S.
+Here are the topics we'll cover:
+
+1. [Omeka S basic concepts](docs/notebooks/01_basic_concepts.html)
+2. [Logging in](docs/notebooks/02_logging_in.html)
+3. [Items](docs/notebooks/03_items.html)
+4. [Editing items](docs/notebooks/04_edit_items.html)
+5. [Linking items](docs/notebooks/05_linking_items.html)
+6. [Creating a site](docs/notebooks/06_create_a_site.html)
+7. [Creating a map](docs/notebooks/07_create_a_map.html)
+8. [Site navigation](docs/notebooks/08_site_navigation.html)
+9. [Mapping by links](docs/notebooks/09_map_links.html)
 
 
 ## Trainers
 
 * Mike Lynch
+* Xinwei Luo
 
 ## Course pre-requisites and setup requirements
+
 
 
 ## Venue
@@ -23,8 +36,6 @@ and publishing collections with Omeka S.
 ## Code of Conduct
 
 Our full CoC, with incident reporting guidelines, is available [here]https://sydney-informatics-hub.github.io/codeofconduct/).
-
-
 
 ## Schedule
 
