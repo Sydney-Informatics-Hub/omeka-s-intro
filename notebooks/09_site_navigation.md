@@ -15,25 +15,20 @@ view of the site. Once you do that, click on the "Navigation" item
 in your site's pane on the left nav bar:
 
 
-![Resources](figures/09_no_pages.png)
+![Resources](figures/09_default_nav.png)
 
-This
-is where we build up a list of pages which will be linked across the
+This is where we build up a list of pages which will be linked across the
 top of the site.
 
 The page we've just created, Map, is available on the right hand side,
 under "Add a link to a site page". Clicking on "Map" will add  it to the
-central pane
+central pane.
 
-The site also comes with a default page called "Welcome".
-
-The Navigation page also lets us pick a "Home page" - this is the page
-which a visitor will see when they first arrive at the site. Let's
-set this to "Welcome"
+The site also comes with a default page called "Welcome". The Navigation page also lets us pick a "Home page" - this is the page which a visitor
+will see when they first arrive at the site. Let's set this to "Welcome".
 
 Once you're finished, click "Save", and then click the little arrow
 icon next to your site in the nav panel to see the results:
-
 
 ![Resources](figures/09_welcome.png)
 
@@ -41,4 +36,13 @@ The front page is now the Welcome page - because we haven't touched the
 defaults, it's full of a bunch of sample text, which you can change by
 editing the page in the admin interface.
 
-You should also now haev a
+The site's navigation, under the heading, also now includes a link
+to your map page: if you click it, you should now be able to view the
+map.
+
+![Resources](figures/09_map_nav.png)
+
+This has just been an introduction to building sites in Omeka S - there's
+much more which you can do in terms of structuring sites, adding
+multimedia, providing different visualisations of the items in the
+database, adding dynamic bibliographies and more.
