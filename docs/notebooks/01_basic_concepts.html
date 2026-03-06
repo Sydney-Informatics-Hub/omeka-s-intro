@@ -304,32 +304,36 @@ cookieconsent.run({
  <span class="dropdown-text">Basic concepts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/02_prepare_csv.html">
- <span class="dropdown-text">Preparing a CSV</span></a>
+    <a class="dropdown-item" href="../notebooks/02_logging_in.html">
+ <span class="dropdown-text">Logging in</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/03_upload_items.html">
- <span class="dropdown-text">Uploading items</span></a>
+    <a class="dropdown-item" href="../notebooks/03_items.html">
+ <span class="dropdown-text">Items</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/04_linking_items.html">
+    <a class="dropdown-item" href="../notebooks/04_edit_items.html">
+ <span class="dropdown-text">Editing items</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/05_linking_items.html">
  <span class="dropdown-text">Linking items</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/05_create_a_site.html">
+    <a class="dropdown-item" href="../notebooks/06_add_items.html">
+ <span class="dropdown-text">Adding new items</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/07_create_a_site.html">
  <span class="dropdown-text">Creating a site</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/06_create_a_map.html">
+    <a class="dropdown-item" href="../notebooks/08_create_a_map.html">
  <span class="dropdown-text">Create a map</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../notebooks/07_site_navigation.html">
+    <a class="dropdown-item" href="../notebooks/09_site_navigation.html">
  <span class="dropdown-text">Site navigation</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../notebooks/08_map_links.html">
- <span class="dropdown-text">Mapping by links</span></a>
   </li>  
     </ul>
   </li>
@@ -363,16 +367,36 @@ cookieconsent.run({
 
 <section id="basic-concepts" class="level1">
 <h1>Basic concepts</h1>
-<p>Omeka S is a database for storing collections of items which have relationships to one another, and which can have more than one media attached to them.</p>
-<p>Once you’ve built a collection of resources, you can publish some or all of them as a website. By default you get a single page for an item, with embedded multimedia, but there are a range of other ways to present resources - as a timeline, a network graph or on a map.</p>
-<p>This is a short introduction which only covers a few of Omeka S’ features:</p>
-<ul>
-<li>How to import a spreadsheet with your items</li>
-<li>Some points about data hygiene to keep Omeka S’ import module happy</li>
-<li>Creating links between items</li>
-<li>Publishing items on a map</li>
-</ul>
-<p>We should have time for questions and interruptions.</p>
+<p>This section is going to cover some basic Omeka S vocabulary and a rough mental model of how I’ve imported the latest version of the Carceral Archipelago spreadsheet.</p>
+<p>Omeka S is a web-based platform for creating and storing collections of items and their relationships, and for publishing these collections as websites.</p>
+<p>An item is very general - it can be anything you need it to be for your research. In the Carceral Archipelago collection as it stands now, we’ve got two primary sorts of items: Locations and Carceral Sites.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/01_data_model.png" class="img-fluid figure-img"></p>
+<figcaption>Data model for Carceral Archipelago</figcaption>
+</figure>
+</div>
+<p>This is the kind of diagram technology people like to draw when we’re thinking these things through - it shows you two sorts of thing, a location and a carceral site, and the properties which each one of them has. The arrows between them show how they can be related to one another.</p>
+<p>The data model here is not dependent on Omeka S - it’s just a way of organising how we want to represent the collection.</p>
+<p>In traditional databases, these sorts of tables and their relationships get designed up front, and all of the data which gets imported has to fit into that pre-baked mould. Omeka S is less restrictive than that, although as we’ll see, it still requires a bit of standardisation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/01_resources.png" class="img-fluid figure-img"></p>
+<figcaption>Items and item sets</figcaption>
+</figure>
+</div>
+<p>Items are sometimes referred to in Omeka S as “resources” - the term “resource” is more general because it can be either a single item, or a collection of items, which in Omeka S is an item set. For this workshop we’ll mostly be talking about items, but some of the interfaces will call them resources.</p>
+<p>This diagram shows four of the items which I’ve imported into Omekas S - two of them are locations and two are carceral sites. I’ve adde all of the items to two item sets, one for the locations and one for the carceral sites.</p>
+<p>The arrows on this diagram show some of the relationships - all of the carceral sites belong to a location, and some of the sites are related to one another.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/01_sites.png" class="img-fluid figure-img"></p>
+<figcaption>Items and item sets</figcaption>
+</figure>
+</div>
+<p>This diagram is zoomed out even further - on the left the coloured rectangles are meant to show all of the items in the Omekas S collection.</p>
+<p>On the left are two “Sites” - these are website which public users can visit to look at the items in the collection, plus other supplementary materials. We can have multiple sites, each of which has its own set of resources from Omeka S - this is what the yellow and purpled dotted lines mean.</p>
+<p>We’ll be using this feature in the final part of the website when we each set up our own site on the same Omeka S.</p>
 
 
 </section>
