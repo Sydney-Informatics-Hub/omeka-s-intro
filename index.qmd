@@ -29,13 +29,14 @@ Here are the topics we'll cover:
 
 ## Course pre-requisites and setup requirements
 
-
+Laptop and login to the Omeka S instance
 
 ## Venue
 
-## Code of Conduct
-
-Our full CoC, with incident reporting guidelines, is available [here]https://sydney-informatics-hub.github.io/codeofconduct/).
+CG2 Moore Theological College, Level 5, Meeting Room 502
 
 ## Schedule
+
+Monday March 9, 1-2:30pm
+
 
