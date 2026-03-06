@@ -24,15 +24,13 @@ website:
         - text: "Linking items"
           href: notebooks/05_linking_items.html
         - text: "Adding new items"
-          href: notebooks/06_adding_items.html
+          href: notebooks/06_add_items.html
         - text: "Creating a site"
           href: notebooks/07_create_a_site.html
         - text: "Create a map"
           href: notebooks/08_create_a_map.html
         - text: "Site navigation"
           href: notebooks/09_site_navigation.html
-        - text: "Mapping by links"
-          href: notebooks/10_map_links.html
   cookie-consent:
     type: express
     style: simple
