@@ -20,17 +20,19 @@ website:
         - text: "Items"
           href: notebooks/03_items.html
         - text: "Editing items"
-          href: notebooks/04_editing_items.html
+          href: notebooks/04_edit_items.html
         - text: "Linking items"
           href: notebooks/05_linking_items.html
+        - text: "Adding new items"
+          href: notebooks/06_adding_items.html
         - text: "Creating a site"
-          href: notebooks/06_create_a_site.html
+          href: notebooks/07_create_a_site.html
         - text: "Create a map"
-          href: notebooks/07_create_a_map.html
+          href: notebooks/08_create_a_map.html
         - text: "Site navigation"
-          href: notebooks/08_site_navigation.html
+          href: notebooks/09_site_navigation.html
         - text: "Mapping by links"
-          href: notebooks/09_map_links.html
+          href: notebooks/10_map_links.html
   cookie-consent:
     type: express
     style: simple

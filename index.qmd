@@ -11,15 +11,16 @@ platform for building and publishing digital humanities collections.
 
 Here are the topics we'll cover:
 
-1. [Omeka S basic concepts](docs/notebooks/01_basic_concepts.html)
-2. [Logging in](docs/notebooks/02_logging_in.html)
-3. [Items](docs/notebooks/03_items.html)
-4. [Editing items](docs/notebooks/04_edit_items.html)
-5. [Linking items](docs/notebooks/05_linking_items.html)
-6. [Creating a site](docs/notebooks/06_create_a_site.html)
-7. [Creating a map](docs/notebooks/07_create_a_map.html)
-8. [Site navigation](docs/notebooks/08_site_navigation.html)
-9. [Mapping by links](docs/notebooks/09_map_links.html)
+1. [Omeka S basic concepts](notebooks/01_basic_concepts.html)
+2. [Logging in](notebooks/02_logging_in.html)
+3. [Items](notebooks/03_items.html)
+4. [Editing items](notebooks/04_edit_items.html)
+5. [Linking items](notebooks/05_linking_items.html)
+6. [Adding items](notebooks/06_adding_items.html)
+7. [Creating a site](notebooks/07_create_a_site.html)
+8. [Creating a map](notebooks/08_create_a_map.html)
+9. [Site navigation](notebooks/09_site_navigation.html)
+10. [Mapping by links](notebooks/10_map_links.html)
 
 
 ## Trainers
