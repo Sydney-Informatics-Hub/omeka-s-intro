@@ -12,10 +12,10 @@ Site looks like as a data object:
 
 ![Carceral object](figures/04_carceral_site.png)
 
-This diagram shows one of our carceral site properties, "Cartographic
-Name", and what it looks like in the Omeka S edit page:
+Here is what the first property in this object, "Cartographic
+Name" looks like in the Omeka S edit page:
 
-![Carceral object edit](figures/04_item_diagram.png)
+![Carceral object edit](figures/04_edit_name.png)
 
 There's two reasons for all the extra complexity here. One is that
 Omeka S properties have to be defined as part of a _vocabulary_ -
@@ -65,8 +65,10 @@ This speeds things up a lot when adding items, but the resource
 templates have quite a lot of fields, which are left empty when there's
 no value for them.
 
-We'll have a quick look at the standard resource templates at the end
-of the workshop.
+This distribution of Omeka S comes with eleven pre-build resource
+template for describing common objects of study in the humanities - it's
+possible to add new ones or modify the existing ones. We'll revisit
+resource templates in the section about adding new items.
 
 For now, I've added a description (which I grabbed from Wikipedia) to the item I'm editing - you can do the same. It's probably easiest if we make sure we're not editing the same record.
 
