@@ -1,7 +1,8 @@
 # Items
 
-Items are the things we work with most in Omeka S. This shows the list
-of items which were imported from the Carceral Archipelago spreadsheet.
+Items are the things we work with most in Omeka S. If you clicked
+the "Items" link you should see this list of items which I imported from
+the Carceral Archipelago spreadsheet.
 
 ![The item list view](figures/03_item_list.png)
 
@@ -32,7 +33,7 @@ Linked resources for now and click on "Mapping"
 
 This tab shows you the location data stored against the item.
 
-![Map of Flinders Island](figures/03_item_mapping.png)
+![Map of Tasmania with a marker on Flinders Island](figures/03_item_mapping.png)
 
 By default the map is zoomed in too close to be much use - if you click
 the icon with the minus sign, or use your scroll wheel or scroll pad,

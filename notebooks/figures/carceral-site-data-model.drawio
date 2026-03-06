@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="38hUoUZzKc0yog3pG8wI">
+    <mxGraphModel dx="1018" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Carceral Site" vertex="1">
+          <mxGeometry height="335" width="190" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-2" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Cartographic Name" vertex="1">
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-16" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Identifier" vertex="1">
+          <mxGeometry height="30" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-3" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Type" vertex="1">
+          <mxGeometry height="30" width="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-4" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Dates of use" vertex="1">
+          <mxGeometry height="30" width="190" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-5" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Authority" vertex="1">
+          <mxGeometry height="30" width="190" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-6" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Quotes" vertex="1">
+          <mxGeometry height="31" width="190" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-7" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Related Location" vertex="1">
+          <mxGeometry height="31" width="190" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-8" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Related Carceral Site" vertex="1">
+          <mxGeometry height="31" width="190" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-9" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Latitude" vertex="1">
+          <mxGeometry height="31" width="190" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="pUbBmDlNSibf4-Jp1pUr-10" parent="pUbBmDlNSibf4-Jp1pUr-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Longitude" vertex="1">
+          <mxGeometry height="31" width="190" y="304" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

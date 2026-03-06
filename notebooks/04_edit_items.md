@@ -2,20 +2,20 @@
 
 This is the main page used to edit and create new items in Omeka S -
 it looks fairly complicated because this is where you see a lot of
-the metadata-nerd aspects of Omeka S, but underneath that it's
-relatively simple
+the metadata-nerd aspects of Omeka S, but what it boils down to
+is a list of properties and their values.
 
 ![Editing an item](figures/04_edit_item.png)
 
-If we remember our diagram at the start, it showed what a Carceral
-Site looks like as a data object:
+From the intro section, here's what a Carceral Site looks like
+in our data model:
 
-![Carceral object](figures/04_carceral_site.png)
+![Carceral Site data model](figures/04_carceral_site.png)
 
 Here is what the first property in this object, "Cartographic
-Name" looks like in the Omeka S edit page:
+Name", looks like in the Omeka S edit page:
 
-![Carceral object edit](figures/04_edit_name.png)
+![Editing the cartographic name](figures/04_edit_name.png)
 
 There's two reasons for all the extra complexity here. One is that
 Omeka S properties have to be defined as part of a _vocabulary_ -
@@ -54,7 +54,7 @@ The second reason for why the editing view looks so complex is that if
 you scroll down, you'll see a lot of empty fields, like 'Region',
 'Locality', 'Street address', which aren't in our data model:
 
-![Empty fields](figures/04_empty_fields.png)
+![The edit interface showing unused fields](figures/04_empty_fields.png)
 
 These are here because when I imported the spreadsheet, I used a
 resource template called Place. A resource template is a predefined
@@ -63,9 +63,11 @@ having to add every property manually.
 
 This speeds things up a lot when adding items, but the resource
 templates have quite a lot of fields, which are left empty when there's
-no value for them.
+no value for them. In general, empty fields are just ignored - when
+the item is displayed on a map or a website, they will not be rendered
+at all.
 
-This distribution of Omeka S comes with eleven pre-build resource
+This distribution of Omeka S comes with eleven pre-built resource
 template for describing common objects of study in the humanities - it's
 possible to add new ones or modify the existing ones. We'll revisit
 resource templates in the section about adding new items.

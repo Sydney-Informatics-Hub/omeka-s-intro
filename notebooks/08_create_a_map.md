@@ -7,8 +7,18 @@ First, we need to assign all of the items in Omeka to the site. Every
 site in an Omeka S instance has a collection of items which it "knows
 about" and will show up in its searches and visualisations - it's
 possible to configure this to automatically include new items, but
-by default a new site won't have any items in it. Click the "Resources"
-item in the left nav panel, which takes us to the Resources page
+by default a new site won't have any items in it.
+
+Here's a diagram illustrating this from earlier: Site A can see the
+items in the yellow box, and Site B can see the items in the purple
+box.
+
+![Items and item sets](figures/01_sites.png)
+
+Assigning items to a site is something I always forget to do and
+then wonder why my map isn't working - Omeka S won't remind you to do it.
+
+Click the "Resources" item in your site's section of the left nav panel, which takes us to the Resources page for the site:
 
 ![Resources](figures/08_resources.png)
 
@@ -50,7 +60,7 @@ We're going to add one block to this - "Map by query"
 The "Map by query" has a lot of details in it - we can leave the defaults
 for now:
 
-![Page editor](figures/08_page_editor.png)
+![Page editor](figures/08_add_map_block.png)
 
 Click the "Save" button in the top left hand corner, and you should get
 a green message saying "Page successfully updated":

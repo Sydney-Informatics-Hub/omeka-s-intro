@@ -23,7 +23,7 @@ items.
 What we're looking at by default is the bare minimum, a Title and a
 Description.
 
-Let's select the Place resource template from the drop-down:
+Let's pick a Place resource template from the drop-down:
 
 ![Resource template](figures/06_select_resource_template.png)
 
@@ -32,7 +32,7 @@ down to look at all of them.
 
 ![Resource template](figures/06_resource_template.png)
 
-Notice that the first two fields, Cartographic Name and Indigenous Name,
+The first two fields, Cartographic Name and Indigenous Name,
 match the headings of the columns in the spreadsheets I imported.
 
 This is because when I did the import, I modified the default template
@@ -41,7 +41,7 @@ for Place and added a second name field, using the property
 "alternateName" to "Cartographic Name" and Indigenous Name".
 
 If you scroll down to the end of the new item, you can see another field
-which I added, Indigenous Language Family:
+which I added to the template, Indigenous Language Family:
 
 ![Indigenous language family](figures/06_indigenous_language_family.png)
 
@@ -63,7 +63,7 @@ against items:
 ![Mapping](figures/06_mapping.png)
 
 The geolocations on the imported items are points, but Omeka S supports
-many other ways of locating an item - a set of line segments, a polygon
+other ways of locating an item - a set of line segments, a polygon
 (which is what's in the example above), a rectangle or bounding box.
 
 Clicking "Add" in the top left will add your new item to the database.

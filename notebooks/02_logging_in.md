@@ -29,7 +29,7 @@ going to be using the first two.
 "Sites" (under the search box) is where you set up and edit the
 public-facing websites based Omeka.
 
-"RESOURCES" (the next section) is where you can edit and add the actual
+"Resources" (the next section) is where you can edit and add the actual
 items which the websites are based on.
 
 The main page of the dashboard also has these two broad sections: under
@@ -37,4 +37,5 @@ The main page of the dashboard also has these two broad sections: under
 and under "Manage Sites" is one website. Later I'll get you to each
 create your own site in this section.
 
-To see what's here, click on the "Items" link.
+In the next section, we'll look at the items in more detail, so click
+on the "Items" link in the admin dashboard.

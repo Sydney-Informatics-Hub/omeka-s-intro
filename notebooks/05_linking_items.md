@@ -1,8 +1,8 @@
 # Linking items
 
 In the last section, we used the edit page to update an item's text
-value. Item properties can also be links to other items, or collections
-of items, in the Omeka S database - this is how Omeka S is used to
+value. Item properties can also be links to other resources (items or
+item sets) in the same Omeka S database - this is how Omeka S is used to
 model relationships between items.
 
 When I imported the two worksheets from the spreadsheet last week, I
@@ -16,7 +16,7 @@ identifier for Tasmania/Lutruwita in the locations sheet was GEO-TAS.
 We're going to fix that, and also fix some other records which I unlinked
 manually. Here are the four items which have missing links, and the
 places which we want to link them to - we should decide who's going to
-do which one
+do which one:
 
 - Blue Tier Tin Mines (Tasmania)
 - Norfolk Island Penal Settlement (Norfolk Island)
@@ -31,7 +31,7 @@ left-hand navigation panel:
 You can then click on the pencil icon to go straight into the edit page
 for that item.
 
-We're going to set the link between the carceral site and the place in
+We're going to set the link between the carceral site and the location in
 a property called "Contained in place" - you'll need to scroll down to
 find it. In this screenshot I've highlighted it with a red box
 
@@ -66,7 +66,8 @@ this:
 ![Linked item](figures/05_linked_item.png)
 
 Note that the red text "Tasmania" has a little cube after it - this
-indicates that it's a link, not just the word "Tasmania".
+indicates that it's a link to another resource, not just the word
+"Tasmania".
 
 It's important to remember at this point to save our original item -
 otherwise the change we've just made won't be stored in the database.
