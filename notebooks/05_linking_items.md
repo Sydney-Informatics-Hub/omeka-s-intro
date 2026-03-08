@@ -14,7 +14,7 @@ One of these (GEO-LTRW) wasn't found in the database, because the
 identifier for Tasmania/Lutruwita in the locations sheet was GEO-TAS.
 
 We're going to fix that, and also fix some other records which I unlinked
-manually. Here are the four items which have missing links, and the
+manually. Here are the six items which have missing links, and the
 places which we want to link them to - we should decide who's going to
 do which one:
 
@@ -22,6 +22,8 @@ do which one:
 - Norfolk Island Penal Settlement (Norfolk Island)
 - Nausori Sugar Plantation (Fiji)
 - Fantome Island Lock Hospital and Lazaret (Fantome Island)
+- Darlington Penal Settlement (Maria Island)
+- East Trinity Sugar Zone (Cairns)
 
 To find your record, you can use the search box at the top of the
 left-hand navigation panel:
