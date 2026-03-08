@@ -37,12 +37,6 @@
         <mxCell id="vgU4Yqkl5oSkqLhc7Qtw-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Carceral Sites" vertex="1">
           <mxGeometry height="30" width="110" x="340" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="vgU4Yqkl5oSkqLhc7Qtw-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Item Set containing Items" vertex="1">
-          <mxGeometry height="30" width="140" x="60" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="vgU4Yqkl5oSkqLhc7Qtw-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Item Set containing Items" vertex="1">
-          <mxGeometry height="30" width="140" x="340" y="270" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
