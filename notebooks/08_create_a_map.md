@@ -13,14 +13,14 @@ Here's a diagram illustrating this from earlier: Site A can see the
 items in the yellow box, and Site B can see the items in the purple
 box.
 
-![Items and item sets](figures/01_sites.png)
+![Resources and sites](figures/01_sites.png)
 
 Assigning items to a site is something I always forget to do and
 then wonder why my map isn't working - Omeka S won't remind you to do it.
 
 Click the "Resources" item in your site's section of the left nav panel, which takes us to the Resources page for the site:
 
-![Resources](figures/08_resources.png)
+![The empty list of resources for the new site](figures/08_resources.png)
 
 Select the second option, "Add - keep existing items and assign items from a new search query"
 
@@ -30,21 +30,21 @@ so we can leave the query empty.
 
 Click "Save" to add the items to the site.
 
-![Resources](figures/08_add_resources.png)
+![Adding all resources](figures/08_add_resources.png)
 
-After this you should be able to click in the "Items" entry under
-"Resources" on the left nav panel and see a list of all of the items.
+After this you should be able to click in your site's "Resources"
+item on the left nav panel and see that it has items added to it:
 
-![Resources](figures/08_added_items.png)
+![The Resources page showing that there are items assigned to the site](figures/08_added_items.png)
 
 Now that the site has some items, we're ready to put them on a map. Click Pages in the left nav panel, then click "Add new page".
 
-![Add new page](figures/08_add_page.png)
+![The site pages view](figures/08_add_page.png)
 
 Like the site as a whole, the page needs to have a title, and the URL
 slug can be customised but usually will just be the title.
 
-![New page](figures/08_new_page.png)
+![Adding a new page](figures/08_new_page.png)
 
 The page editor looks like this:
 
@@ -60,17 +60,17 @@ We're going to add one block to this - "Map by query"
 The "Map by query" has a lot of details in it - we can leave the defaults
 for now:
 
-![Page editor](figures/08_add_map_block.png)
+![The Map by query block](figures/08_add_map_block.png)
 
 Click the "Save" button in the top left hand corner, and you should get
 a green message saying "Page successfully updated":
 
-![Page editor](figures/08_page_updated.png)
+![Page editor after saving changes](figures/08_page_updated.png)
 
 To see the new page, we can click the "View" button, which will open
 the page in a new browser tab:
 
-![Page editor](figures/08_map_world.png)
+![The public view of the new map](figures/08_map_world.png)
 
 Here is a view of the map zoomed into Tasmania - we can see that Locations
 are being rendered as red markers and Carceral Sites as blue-green ones.
@@ -78,7 +78,7 @@ are being rendered as red markers and Carceral Sites as blue-green ones.
 Where the mapped items are close together, the map groups them into
 clusters with a number showing how many items are in the cluster.
 
-![Page editor](figures/08_map_tasmania.png)
+![The map zoomed in to Tasmania showing the Blue Tier Tin Mines](figures/08_map_tasmania.png)
 
 If I click on an item, it shows the name: Blue Tier Tin Mines - and if I
 click the link, it will open that item's public facing page.
@@ -96,19 +96,19 @@ names, not the user-friendly labels. "Indigenous name" is using the
 schema.org property "alternateName", which is what we have to search for:
 
 
-![Page editor](figures/08_map_add_property.png)
+![Selecting alternateName in the map popup](figures/08_map_add_property.png)
 
 After finding alternateName, we can add more properties by clicking the
 "+ Add property" button and doing the same kind of search. Here I've
 added the language family, language and text properties - "text" is a
 schema.org property which I've used for the quotations.
 
-![Page editor](figures/08_popup_properties.png)
+![The map by query page with more properties added to the popup](figures/08_popup_properties.png)
 
 Once you've added some properties, click the "Save" button in the
 top right hand corner, and then "View" to see the updated map.
 
-![Page editor](figures/08_map_quotes.png)
+![A view of the map of Tasmania with more fields on the popup](figures/08_map_quotes.png)
 
 This still needs some work - the scrollbars are ugly and we need to
 provide a better label than "text". Our team at SIH are scoping some

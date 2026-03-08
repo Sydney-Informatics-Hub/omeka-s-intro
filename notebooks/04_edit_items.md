@@ -10,7 +10,7 @@ is a list of properties and their values.
 From the intro section, here's what a Carceral Site looks like
 in our data model:
 
-![Carceral Site data model](figures/04_carceral_site.png)
+![The data model of a Carceral Site](figures/04_carceral_site.png)
 
 Here is what the first property in this object, "Cartographic
 Name", looks like in the Omeka S edit page:
@@ -24,7 +24,7 @@ these are metadata standards defining what certain terms mean.
 You can see the list of vocabularies in this Omeka S on the left panel
 of the edit view:
 
-![Vocabularies](figures/04_vocabularies.png)
+![The edit item page with the vocabularies highlighted](figures/04_vocabularies.png)
 
 The first four of these are part of our standard distribution. They are
 all widely used standards from the library / preservation world, and
@@ -39,7 +39,7 @@ Let's go back to a view of our data object and a view which zooms in
 to one of its properties, "Cartographic Name", and what it looks like
 in the Omeka S edit page:
 
-![Carceral object edit](figures/04_item_diagram.png)
+![The Carceral Site model and the Cartographic Name field from the edit item page](figures/04_item_diagram.png)
 
 The small label "schema:name" tells us that this field is using the
 'name' property from schema.org.
@@ -54,7 +54,7 @@ The second reason for why the editing view looks so complex is that if
 you scroll down, you'll see a lot of empty fields, like 'Region',
 'Locality', 'Street address', which aren't in our data model:
 
-![The edit interface showing unused fields](figures/04_empty_fields.png)
+![The edit interface showing some unused fields](figures/04_empty_fields.png)
 
 These are here because when I imported the spreadsheet, I used a
 resource template called Place. A resource template is a predefined
@@ -74,11 +74,11 @@ resource templates in the section about adding new items.
 
 For now, I've added a description (which I grabbed from Wikipedia) to the item I'm editing - you can do the same. It's probably easiest if we make sure we're not editing the same record.
 
-![Edit description](figures/04_edit_description.png)
+![Editing the description field](figures/04_edit_description.png)
 
 Once you've added something, click the "Save" button in the top right
 
-![After editing](figures/04_edited_item.png)
+![An item after editing and saving](figures/04_edited_item.png)
 
 This will return you to the item view, with a green message saying
 "Item successfully updated". You should be able to see your edits

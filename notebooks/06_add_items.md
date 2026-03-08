@@ -7,11 +7,11 @@ Omeka S to create a new item.
 Go back to the admin dashboard - you'll notice that next to the
 different kinds of resources, there are plus icons.
 
-![Add item](figures/06_add_item.png)
+![The Admin dashboard with the + to add a new item highlighted](figures/06_add_item.png)
 
 Click the plus icon next to Items to start to create a new item.
 
-![New item](figures/06_new_item.png)
+![Editing a new item](figures/06_new_item.png)
 
 You'll notice that this page looks a lot simpler than when we were
 editing the items which I imported last week - that's because when
@@ -25,12 +25,12 @@ Description.
 
 Let's pick a Place resource template from the drop-down:
 
-![Resource template](figures/06_select_resource_template.png)
+![Selecting the Place resource template](figures/06_select_resource_template.png)
 
 This will add a lot of properties to our new item - you can scroll
 down to look at all of them.
 
-![Resource template](figures/06_resource_template.png)
+![The new item with all of the fields from the Place resource template](figures/06_resource_template.png)
 
 The first two fields, Cartographic Name and Indigenous Name,
 match the headings of the columns in the spreadsheets I imported.
@@ -60,7 +60,7 @@ be easy to add am indigenous name or a language family.
 I'm not going to fill out all of this now - what I really want to show you is the mapping panel, as this is how you can create and edit geolocations
 against items:
 
-![Mapping](figures/06_mapping.png)
+![The Mapping tab, showing a polygon over the suburb Macquarie Park](figures/06_mapping.png)
 
 The geolocations on the imported items are points, but Omeka S supports
 other ways of locating an item - a set of line segments, a polygon
@@ -68,7 +68,7 @@ other ways of locating an item - a set of line segments, a polygon
 
 Clicking "Add" in the top left will add your new item to the database.
 
-![New item](figures/06_new_item_in_list.png)
+![The item list showing Macquarie Park at the top](figures/06_new_item_in_list.png)
 
 If you select the item list view from the dashboard, you should be able
 to see your new item - and everyone else's - at the top of the list.

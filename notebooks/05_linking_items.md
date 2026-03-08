@@ -28,7 +28,7 @@ do which one:
 To find your record, you can use the search box at the top of the
 left-hand navigation panel:
 
-![Search for Blue Tier Tin Mine](figures/05_search_items.png)
+![Searching for Blue Tier Tin Mine](figures/05_search_items.png)
 
 You can then click on the pencil icon to go straight into the edit page
 for that item.
@@ -37,7 +37,7 @@ We're going to set the link between the carceral site and the location in
 a property called "Contained in place" - you'll need to scroll down to
 find it. In this screenshot I've highlighted it with a red box
 
-![Contained in place](figures/05_contained_in_place.png)
+![The edit item page with the "Contained in place" field highlighted](figures/05_contained_in_place.png)
 
 You'll notice that this field looks a bit different to the fields like
 "description" that just want a text item - it has "No resource selected"
@@ -53,19 +53,19 @@ This will open a panel on the right with the header "Select item", a
 search box, and the start of a list of all of the items in Omeka. We can
 narrow this down by searching for the name of the place we want.
 
-![Search for an item to link to](figures/05_select_item.png)
+![Searching for an item to link to](figures/05_select_item.png)
 
 If you click on the correct location, the side panel changes to a view
 of that item. Down the bottom of the panel is a button labelled "Select
 resource".
 
-![Select resource](figures/05_select_resource.png)
+![Selecting the resource "Tasmania"](figures/05_select_resource.png)
 
 Clicking this will add a link to the place to the "contained in place"
 property of our original item - it should update to look something like
 this:
 
-![Linked item](figures/05_linked_item.png)
+![The edit item page showing Tasmania as a linked item](figures/05_linked_item.png)
 
 Note that the red text "Tasmania" has a little cube after it - this
 indicates that it's a link to another resource, not just the word
@@ -78,7 +78,7 @@ We need to click the "Save" button in the top right hand corner. This
 should take us to the item's view, where we should be able to see a red
 link to the place in the "Contained in place" field
 
-![Saved linked item](figures/05_saved_link.png)
+![The item after the new link has been saved](figures/05_saved_link.png)
 
 We'll now look at how Omeka S manages reverse links. In computer systems
 links are often one-way - think of how a link on a web page takes you to
@@ -95,12 +95,12 @@ are one-way, but it gives you an easy way to find the reverse links.
 If you click on the link you've just created, you'll open the item view
 for that place:
 
-![Place](figures/05_place.png)
+![Viewing the Tasmania item](figures/05_place.png)
 
 If you select the second tab, "Linked resources", it gives us a list
 of all of the items in the database which have a link pointing to this
 item. You should be able to see the item you edited in this link.
 
-![Reverse link](figures/05_linked_resources.png)
+![The Linked Resources tab for Tasmania](figures/05_linked_resources.png)
 
 
