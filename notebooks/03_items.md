@@ -9,7 +9,7 @@ the Carceral Archipelago spreadsheet.
 You can click any of the titles of these items to view it in more
 detail.
 
-![A view of Wyabalenna Aboriginal Establishment](figures/03_item_view.png)
+![Viewing a single item](figures/03_item_view.png)
 
 An item view has three tabs - the first, Metadata, shows the information
 which was imported.
@@ -33,7 +33,7 @@ Linked resources for now and click on "Mapping"
 
 This tab shows you the location data stored against the item.
 
-![Map of Tasmania with a marker on Flinders Island](figures/03_item_mapping.png)
+![The Mapping tab of a single item](figures/03_item_mapping.png)
 
 By default the map is zoomed in too close to be much use - if you click
 the icon with the minus sign, or use your scroll wheel or scroll pad,

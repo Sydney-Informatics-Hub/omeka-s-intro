@@ -10,7 +10,7 @@ national research cloud we're running on. We'll be getting a Curated
 Collections domain soon.  And, eventually, we will be able to give
 collections their own custom domains.
 
-![The home page of an Omeka S](figures/02_home.png)
+![The home page of an Omeka S instance](figures/02_home.png)
 
 Click the *Admin dashboard* link and log in with the credentials which
 we gave you last week:
@@ -20,7 +20,7 @@ we gave you last week:
 Once you've logged in, you should see the admin dashboard, which
 looks like this:
 
-![Admin dashboard](figures/02_admin_dashboard.png)
+![The admin dashboard](figures/02_admin_dashboard.png)
 
 The left hand side of the admin dashboard is how you navigate around
 Omeka S. There are four main sections of this - for today we're only

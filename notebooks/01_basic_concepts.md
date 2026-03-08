@@ -13,7 +13,7 @@ An item is very general - it can be anything you need it to be for your
 research. In the Carceral Archipelago collection as it stands now,
 we've got two primary sorts of items: Locations and Carceral Sites.
 
-![Data model for Carceral Archipelago](figures/01_data_model.png)
+![A data model for Carceral Archipelago](figures/01_data_model.png)
 
 This is the kind of diagram technology people like to draw when we're
 thinking these things through - it shows you two sorts of thing, a
@@ -44,7 +44,7 @@ The arrows on this diagram show some of the relationships - all of
 the carceral sites belong to a location, and some of the sites are
 related to one another.
 
-![Items and item sets](figures/01_sites.png)
+![Resources and sites](figures/01_sites.png)
 
 This diagram is zoomed out even further - on the left the coloured
 rectangles are meant to show all of the items in the Omekas S collection.
