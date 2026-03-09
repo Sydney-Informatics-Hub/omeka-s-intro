@@ -6,7 +6,8 @@ output:
     toc_float: false
 ---
 
+We've set up a sandbox environment at:
 
-# 1. Get a client
+[Carceral Archipelago workshop](https://carceral-workshop.curated-collections.cloud.edu.au/)
 
-These are the setup instructions...
+Your login details have been sent in an email
